@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pe Mau pamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="loading">Loading...</div>
+    <div class="container-notif" id="choices">
+        <p>Hallo anin, pe mo pamer</p>
+        <button style="padding: 10px 80px;" onclick="show('Oke')">Oke</button>
+    </div>
+    <div id="perasaan" class="container-notif">
+        <p>Are you feeling okay?</p>
+        <button onclick="showPerasaan('banget')">BANGET</button>
+        <button onclick="showPerasaan('')">sedikit</button>
+    </div>
+    <div id="semangat" class="container-notif">
+        <p>ahhh payahhhhh! semangat lah ngab </p>
+        <button style="padding: 10px 80px;" onclick="showdeskripsi('ayoo')">iyo iyo ni semangat</button>
+
+    </div>
+    <div id="gitulah" class="container-notif">
+        <p>Nah Gitulah, ini baru <br>yang namony Indri</p>
+        <button style="padding: 10px 80px;" onclick="showgitulah('gitulah')">Oke</button>
+    </div>
+    <div id="sesuatu" class="container-notif">
+        <p>Aku mau sampein sesuatuuw...</p>
+        <button style="padding: 10px 80px;" onclick="showsesuatu('sesuatu')">Oke</button>
+    </div>
+    <div id="kepo" class="container-notif">
+        <p>kepo ya?</p>
+        <button style="padding: 10px 40px;" onclick="showkepo('kepobiasa')">iya</button>
+        <button style="padding: 10px 40px;" onclick="showkepo('kepoBanget')">Banget</button>
+    </div>
+    <div id="okey" class="container-notif">
+        <p>HAHA owkeyyy</p>
+        <button style="padding: 10px 80px;" onclick="showokey('okey')">Oke</button>
+    </div>
+
+    <div style="display:;" id="des-end" class="container-end">
+        <div id="clock-container">
+            <div id="clock"></div>
+            <div id="date"></div>
+            <button style="padding: 10px 40px;" onclick="showklikaku('klikaku')">klik ini </button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+            <audio controls autoplay>
+                <source src="music.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+    </div>
+
+    <div style="" id="des-enda" class="container-end">
+        <div id="clock-container">
+            <div id="clocka" style="display: block;"></div>
+            <div id="datea"></div>
+            <div class="wrapper-notif">
+                <div class="atas">
+                    <div class="atas-kiri">
+                        <img width="25px" src="logowa.svg" alt="">
+                        <p class="wa">WHATSAPP</p>
+                    </div>
+                    <p class="naw">NOW</p>
+                </div>
+                <div style="text-align: left; margin-left: 10px;" class="des-notif">
+                    <b>Dear Ninda Devina Indriani🍃</b>
+                    <p>Aku bisa melihat kamu adalah orang yg penuh kasih, tapi juga kadang kamu lupa untuk apresiasi
+                        diri kamu sendirii. Walaupun ga sempurna tapi kamu bisa lewatin semua, aku bangga sama kamu!!
+                        heee tapi kalo kamu capee, berenti dulu yaa.</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <button style=" margin-top: 170px; padding: 10px 40px;" onclick="showklikakua('klikakua')">Klik Aku
+                lagi</button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+        </div>
+    </div>
+
+    <div style="display:;" id="des-endb" class="container-end">
+        <div id="clock-container">
+            <div id="clockb"></div>
+            <div id="dateb"></div>
+            <div class="wrapper-notif">
+                <div class="atas">
+                    <div class="atas-kiri">
+                        <img width="25px" src="logowa.svg" alt="">
+                        <p class="wa">WHATSAPP</p>
+                    </div>
+                    <p class="naw">NOW</p>
+                </div>
+                <div style="text-align: left; margin-left: 10px;" class="des-notif">
+                    <b>Dear Ninda Devina Indriani🍃</b>
+                    <p>dak tau nak ngomong ap lagi cok haha, jujur bukan orang yang biso buat kato kato, tapi baru sadar
+                        kalo di unja tu emang seasik ini, kalo aku dak ketemu kau maybee kaya ny ada yang kureng, dak
+                        tau menurut aku ni yee dak tau lah gr ap idak tapi ak dulu pernah berdoa doa ..... klik dulu
+                        selanjuny panjang nian soal ny hehehe</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <button style=" margin-top: 120px; padding: 10px 40px;" onclick="showklikakub('klikakub')">Klik Aku
+                lagi</button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+        </div>
+    </div>
+
+    <div style="" id="des-endc" class="container-end">
+        <div id="clock-container">
+            <div id="clockc"></div>
+            <div id="datec"></div>
+            <div class="wrapper-notif">
+                <div class="atas">
+                    <div class="atas-kiri">
+                        <img width="25px" src="logowa.svg" alt="">
+                        <p class="wa">WHATSAPP</p>
+                    </div>
+                    <p class="naw">NOW</p>
+                </div>
+                <div class="typing-container des-notif" style="text-align: left; margin-left: 10px;">
+                    <b>Dear Ninda Devina Indriani🍃</b>
+                    <p style="width: 370px;" class="typing-text show-full-text">lanjut.. doa dimano aku dulu berdoa, ya
+                        allah kenali samo yang itu ahahaah..
+                        udah gitu bee kalo mo lengkap tanyo dwek samo yang di atas ahahah, intiny terimakasih udah kenal
+                        aku semoga next ekspetasi aku samo kau samo...</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <button style=" margin-top: 120px; padding: 10px 40px;" onclick="showklikakuc('klikakuc')">Kalo mo balas
+                Klik ini</button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+        </div>
+    </div>
+
+
+    <script>
+        function showklikaku(klik) {
+            if (klik === 'klikaku') {
+                document.getElementById("des-end").style.display = "none";
+                document.getElementById("des-enda").style.display = "block";
+            }
+        }
+        function showklikakua(klika) {
+            if (klika === 'klikakua') {
+                document.getElementById("des-enda").style.display = "none";
+                document.getElementById("des-endb").style.display = "block";
+            }
+        }
+        function showklikakub(klikb) {
+            if (klikb === 'klikakub') {
+                document.getElementById("des-endb").style.display = "none";
+                document.getElementById("des-endc").style.display = "block";
+            }
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Loading screen for 1 second
+            setTimeout(function () {
+                document.getElementById("loading").style.display = "none";
+                document.getElementById("choices").style.display = "block";
+            }, 1000);
+        });
+
+        function show(choice) {
+            if (choice === 'Oke') {
+                document.getElementById("choices").style.display = "none";
+                document.getElementById("perasaan").style.display = "block";
+            }
+        }
+
+        function showPerasaan(perasaan) {
+            if (perasaan === 'banget') {
+                document.getElementById("perasaan").style.display = "none";
+                document.getElementById("gitulah").style.display = "block";
+            } else {
+                document.getElementById("perasaan").style.display = "none";
+                document.getElementById("semangat").style.display = "block";
+            }
+        }
+
+        function showdeskripsi(choice) {
+            if (choice === 'ayoo') {
+                document.getElementById("semangat").style.display = "none";
+                document.getElementById("gitulah").style.display = "block";
+            }
+        }
+
+        function showsesuatu(suatu) {
+            if (suatu === 'sesuatu') {
+                document.getElementById("sesuatu").style.display = "none";
+                document.getElementById("kepo").style.display = "block";
+            }
+        }
+
+        function showgitulah(gitulah) {
+            if (gitulah === 'gitulah') {
+                document.getElementById("gitulah").style.display = "none";
+                document.getElementById("sesuatu").style.display = "block";
+            }
+        }
+
+        function showkepo(kepo) {
+            if (kepo === 'kepobiasa') {
+                document.getElementById("kepo").style.display = "none";
+                document.getElementById("okey").style.display = "block";
+            } else {
+                document.getElementById("kepo").style.display = "none";
+                document.getElementById("okey").style.display = "block";
+            }
+        }
+
+        function showokey(okey) {
+            if (okey === 'okey') {
+                document.getElementById("okey").style.display = "none";
+                document.getElementById("des-end").style.display = "block";
+            }
+        }
+
+    </script>
+    <!-- 
+    <div style="display: block;" id="des-end" class="container-end">
+        <div id="clock-container">
+            <div id="clock"></div>
+            <div id="date"></div>
+            <div class="wrapper-notif">
+                <div class="atas">
+                    <div class="atas-kiri">
+                        <img width="25px" src="logowa.svg" alt="">
+                        <p class="wa">WHATSAPP</p>
+                    </div>
+                    <p class="naw">NAW</p>
+                </div>
+                <div style="text-align: left; margin-left: 10px;" class="des-notif">
+                    <b>Dear Ninda Devina Indriani🍃</b>
+                    <p>Aku bisa melihat kamu adalah orang yg penuh kasih, tapi juga kadang kamu lupa untuk apresiasi
+                        diri kamu sendirii. Walaupun ga sempurna tapi kamu bisa lewatin semua, aku bangga sama kamu!!
+                        heee tapi kalo kamu capee, berenti dulu yaa.</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <button style=" margin-top: 170px; padding: 10px 40px;" onclick="showokliakua('klikakua')">Klik Aku
+                lagi</button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+        </div>
+    </div> -->
+
+    <!--     <div style="display: block;" id="des-end" class="container-end">
+        <div id="clock-container">
+            <div id="clock"></div>
+            <div id="date"></div>
+            <div class="wrapper-notif">
+                <div class="atas">
+                    <div class="atas-kiri">
+                        <img width="25px" src="logowa.svg" alt="">
+                        <p class="wa">WHATSAPP</p>
+                    </div>
+                    <p class="naw">NOW</p>
+                </div>
+                <div style="text-align: left; margin-left: 10px;" class="des-notif">
+                    <b>Dear Ninda Devina Indriani🍃</b>
+                    <p>dak tau nak ngomong ap lagi cok haha, jujur bukan orang yang biso buat kato kato, tapi baru sadar
+                        kalo di unja tu emang seasik ini, kalo aku dak ketemu kau maybee kaya ny ada yang kureng, dak
+                        tau menurut aku ni yee dak tau lah gr ap idak tapi ak dulu pernah berdoa doa ..... klik dulu
+                        selanjuny panjang nian soal ny hehehe</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <button style=" margin-top: 120px; padding: 10px 40px;" onclick="showokliakua('klikakua')">Klik Aku
+                lagi</button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+        </div>
+    </div> -->
+
+    <!--   <div style="display: block;" id="des-end" class="container-end">
+        <div id="clock-container">
+            <div id="clock"></div>
+            <div id="date"></div>
+            <div class="wrapper-notif">
+                <div class="atas">
+                    <div class="atas-kiri">
+                        <img width="25px" src="logowa.svg" alt="">
+                        <p class="wa">WHATSAPP</p>
+                    </div>
+                    <p class="naw">NOW</p>
+                </div>
+                <div class="typing-container des-notif" style="text-align: left; margin-left: 10px;">
+                    <b>Dear Ninda Devina Indriani🍃</b>
+                    <p style="width: 370px;" class="typing-text show-full-text">lanjut.. doa dimano aku dulu berdoa, ya
+                        allah kenali samo yang itu ahahaah..
+                        udah gitu bee kalo mo lengkap tanyo dwek samo yang di atas ahahah, intiny terimakasih udah kenal
+                        aku semoga next ekspetasi aku samo kau samo...</p>
+                    <p>.</p>
+                </div>
+            </div>
+            <button style=" margin-top: 120px; padding: 10px 40px;" onclick="showokliakua('klikakua')">Kalo mo balas
+                Klik ini</button>
+            <p style="margin-top: 20px; color: white; text-shadow: 2px 2px 2px black; ">Made By KEMAZZZZZZZ </p>
+        </div>
+    </div> -->
+
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var seconds = now.getSeconds().toString().padStart(2, '0');
+            var day = now.toLocaleDateString('en-US', { weekday: 'long' });
+            var date = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            document.getElementById('clock').textContent = `${hours}:${minutes}`;
+            document.getElementById('date').textContent = `${day}, ${date}`;
+        }
+
+        setInterval(updateClock, 1000); // Update every second
+        updateClock(); // Initial call to display immediately
+    </script>
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var seconds = now.getSeconds().toString().padStart(2, '0');
+            var day = now.toLocaleDateString('en-US', { weekday: 'long' });
+            var date = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            document.getElementById('clocka').textContent = `${hours}:${minutes}`;
+            document.getElementById('datea').textContent = `${day}, ${date}`;
+        }
+
+        setInterval(updateClock, 1000); // Update every second
+        updateClock(); // Initial call to display immediately
+    </script>
+
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var seconds = now.getSeconds().toString().padStart(2, '0');
+            var day = now.toLocaleDateString('en-US', { weekday: 'long' });
+            var date = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            document.getElementById('clockb').textContent = `${hours}:${minutes}`;
+            document.getElementById('dateb').textContent = `${day}, ${date}`;
+        }
+
+        setInterval(updateClock, 1000); // Update every second
+        updateClock(); // Initial call to display immediately
+    </script>
+
+    <script>
+        function updateClock() {
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var seconds = now.getSeconds().toString().padStart(2, '0');
+            var day = now.toLocaleDateString('en-US', { weekday: 'long' });
+            var date = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            document.getElementById('clockc').textContent = `${hours}:${minutes}`;
+            document.getElementById('datec').textContent = `${day}, ${date}`;
+        }
+
+        setInterval(updateClock, 1000); // Update every second
+        updateClock(); // Initial call to display immediately
+    </script>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

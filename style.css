@@ -1,0 +1,203 @@
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-notif {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+    color: white;
+}
+
+.container-notif p {
+    text-align: center;
+
+}
+
+button {
+    background-color: #db7ca0;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#loading {
+    display: none;
+}
+
+#choices,
+#perasaan,
+#gitulah,
+#semangat,
+#deskripsi,
+#sesuatu,
+#kepo,
+#okey,
+#end
+#des-enda
+#des-end
+#des-endb
+#des-endc 
+{
+    display: none;
+}
+
+.container-end {
+    width: 100%;
+    height: 100%;
+    background-color: #db7ca0;
+    background: url(bg-1.jpg);
+    background-size: cover;
+    display: none;
+    background-position: center center;
+    /* Menetapkan posisi gambar latar belakang ke tengah */
+}
+
+#clock-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#clock {
+    font-size: 7em;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 100px;
+
+}
+
+#date {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+#clockc {
+    font-size: 7em;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 100px;
+
+}
+
+#datec {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+#clockb {
+    font-size: 7em;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 100px;
+
+}
+
+#dateb {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+#clocka {
+    font-size: 7em;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 100px;
+
+}
+
+#datea {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+#clock-container button {
+    margin-top: 350px;
+}
+
+#des-end button {
+    padding: 5px 50px;
+    animation: moveUpDown 1s infinite alternate;
+    /* Definisi animasi */
+    font-size: 15px;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px);
+        /* Sesuaikan dengan seberapa jauh tombol akan bergerak */
+    }
+}
+
+.wrapper-notif {
+    width: 400px;
+    height: auto;
+    background-color: rgb(228, 222, 222);
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.atas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.atas-kiri {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.wa {
+    margin-left: 10px;
+    font-weight: 700;
+    color: #1e1e1e98;
+}
+
+.naw {
+    margin-right: 10px;
+    font-weight: 700;
+    color: #1e1e1e98;
+    margin-top: 5px;
+}
